@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Magic Drive Backup is a personal Windows file-transfer tool for uploading and downloading selected files in Google Drive.">
+  <title>Magic Drive Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap"><a class="brand" href="./">Magic Drive Backup</a><nav aria-label="Main navigation"><a href="privacy.html">Privacy policy</a><a href="https://github.com/lu1434417495-sys/magic-drive-backup-site/issues">Contact</a></nav></header>
+  <main class="wrap">
+    <section class="intro">
+      <p class="eyebrow">PERSONAL FILE BACKUP · WINDOWS</p>
+      <h1>Your files.<br>Your Google Drive.</h1>
+      <p class="lead">A personal desktop utility for transferring selected files between a Windows computer and the owner's Google Drive account.</p>
+      <p lang="zh-CN">在自己的 Windows 电脑与 Google 云端硬盘之间上传、下载和校验选定的文件。</p>
+      <a class="button" href="privacy.html">Read the privacy policy <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="cards" aria-label="How the utility works">
+      <article><span class="number">01</span><h2>Choose a file</h2><p>The owner runs a local PowerShell command and chooses a file to upload. Transfers use rclone and the Google Drive API.</p></article>
+      <article><span class="number">02</span><h2>Authorize access</h2><p>Google OAuth connects the owner's account. The utility requests <code>drive.file</code>: access to files it creates or files explicitly made available to it.</p></article>
+      <article><span class="number">03</span><h2>Keep control</h2><p>Files stay in the owner's Drive and can be downloaded or verified locally. The owner controls sharing, deletion and account access.</p></article>
+    </section>
+    <section class="details"><h2>About this application</h2><p>Magic Drive Backup is maintained by <a href="https://github.com/lu1434417495-sys">lu1434417495-sys</a> for personal use. This website provides application and privacy information; the file-transfer utility runs on the owner's computer.</p><p>Google Drive access is used to create backup files, read relevant file metadata, and retrieve those files. Access remains limited by the <code>drive.file</code> permission. This utility is independently maintained and is not a Google product.</p><p>For questions, use the developer contact shown on the Google authorization screen or the <a href="https://github.com/lu1434417495-sys/magic-drive-backup-site/issues">project's contact page</a>. Please do not post private files or credentials in public issues.</p></section>
+  </main>
+  <footer class="wrap"><span>Magic Drive Backup</span><a href="privacy.html">Privacy policy</a><span>Updated October 10, 2026</span></footer>
+</body>
+</html>
